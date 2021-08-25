@@ -4,5 +4,5 @@ const person = {
   hobby: "rowing",
 };
 
-const { age } = person;
-console.log(age);
+const { age, ...newObj } = person;
+console.log(age, newObj);
