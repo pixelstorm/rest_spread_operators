@@ -8,6 +8,12 @@ const person = {
   hobby: "rowing",
 };
 
+const extendedPerson = {
+  ...person,
+};
+
+console.log(extendedPerson);
+
 const { age, ...newObj } = person;
 console.log(age, newObj);
 
