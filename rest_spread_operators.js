@@ -10,6 +10,7 @@ const person = {
 
 const extendedPerson = {
   ...person,
+  hobby: "bowling",
 };
 
 console.log(extendedPerson);
