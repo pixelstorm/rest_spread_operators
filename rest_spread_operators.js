@@ -15,7 +15,7 @@ const extendedPerson = {
 
 const stringArray = ["hello", "world", "goodbye", "mars"];
 const numArray = [1, 2, 3, 4, 5];
-const mergeArray = [...stringArray, ...numArray];
+const mergeArray = [...stringArray, "now", "with", "more", ...numArray];
 console.log(mergeArray);
 
 const { age, ...newObj } = person;
