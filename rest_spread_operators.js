@@ -13,7 +13,10 @@ const extendedPerson = {
   hobby: "bowling",
 };
 
-console.log(extendedPerson);
+const stringArray = ["hello", "world", "goodbye", "mars"];
+const numArray = [1, 2, 3, 4, 5];
+const mergeArray = [...stringArray, ...numArray];
+console.log(mergeArray);
 
 const { age, ...newObj } = person;
 console.log(age, newObj);
